@@ -66,7 +66,6 @@ const LandingPage = () => (
       render={({ contentfulAbout, site }) => {
         const { name, socialLinks, roles } = contentfulAbout;
         const { deterministicBehaviour } = site.siteMetadata;
-
         return (
           <Fragment>
             <Heading
@@ -76,7 +75,7 @@ const LandingPage = () => (
               fontSize={[5, 6, 8]}
               mb={[3, 4, 5]}
             >
-              {`Hello, I'm ${name}!`}
+              {`Hey there, I'm ${name}!`}
             </Heading>
 
             <Heading
